@@ -1,0 +1,11 @@
+{
+    "name": "ghspacescloud/testpackage",
+    "description": "security test package",
+    "authors": [
+        {
+            "name": "ghspacescloud",
+            "email": "ghspacescloud@ghspacescloud.com"
+        }
+    ],
+    "require": {}
+}
