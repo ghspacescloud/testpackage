@@ -7,5 +7,10 @@
             "email": "ghspacescloud@ghspacescloud.com"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "ghspacescloud\\": "src/"
+        }
+    },
     "require": {}
 }
