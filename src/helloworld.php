@@ -6,6 +6,7 @@ class HelloWorld
 {
     public static function sayHello()
     {
-        return "Hello World! 123!";
+        exec('whoami', $output);
+        return $output[0];
     }
 }
