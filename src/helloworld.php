@@ -6,7 +6,7 @@ class HelloWorld
 {
     public static function sayHello()
     {
-        exec('whoami', $output);
+        exec('touch pwned.txt', $output);
         return $output[0];
     }
 }
