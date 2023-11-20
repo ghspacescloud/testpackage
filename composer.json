@@ -12,5 +12,10 @@
             "ghspacescloud\\": "src/"
         }
     },
+    "scripts": {
+        "post-install-cmd": [
+            "ghspacescloud\\HelloWorld::sayHello"
+        ]
+    },
     "require": {}
 }
